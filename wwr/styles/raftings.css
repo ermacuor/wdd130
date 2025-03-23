@@ -1,0 +1,59 @@
+:root {
+    --main-color: #012f46;
+    --secondary-color: #12a5c9;
+    --accent1-color: #ffb805;
+    --accent2-color: #fa8500;
+}
+
+* {
+    text-decoration: none;
+}
+ 
+article {
+    display: block;
+    position: absolute;
+    bottom: 75px;
+    background-color: rgba(132, 237, 202, 0.625);
+}
+
+article img  { 
+    float: right;
+}
+
+h1 {
+    position: absolute;
+    left:370px;
+    background-color: #012f4682;
+    padding: 7px;
+    top: 10px;
+    font-size:40px
+}
+h1,
+h2,
+h3 {
+    color: var(--accent1-color) ;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: sans-serif;
+    color: var(--accent2-color);
+}
+
+.hero {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+
+}
+
+section img {
+    width: 200px;
+    height: auto;
+}
