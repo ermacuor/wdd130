@@ -68,8 +68,73 @@ p {
     width: 200px;
     height: auto;
 }
+.two {
+    display: grid;
+    grid-template: 80px 1fr 30px / 1fr 1fr 1fr 1fr 1fr;
+}
+.one {
+    display: grid;
+    grid-template: 80px 1fr 30px / 1fr 250px 1fr;
+}
 
+.one img{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+section h2{
+    display: grid;
+    grid-column: 1 / 6;
+    display: flex;
+    justify-content: center;
+}
 section img {
-    width: 200px;
+    width: 140px;
     height: auto;
 }
+.two img { 
+    display: flex;
+    justify-self: center ;
+}
+.two p{
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 30% 70% ;
+}
+
+header img {
+    width: 150px;
+    display: flex;
+    justify-self: center;
+}
+
+header nav {
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+ }
+ footer{
+    margin-top: 30px;
+    display: grid;
+    grid-template: 100% / 85% 15%;
+ }
+
+ footer p {
+    display: flex;
+    justify-content: center;
+ }
+
+ footer nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+ }
+ footer img {
+    width: 30px;
+ }
