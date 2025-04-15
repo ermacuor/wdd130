@@ -70,7 +70,7 @@ p {
 }
 .two {
     display: grid;
-    grid-template: 80px 1fr 30px / 1fr 1fr 1fr 1fr 1fr;
+    grid-template: 80px 1fr / 1fr 1fr 1fr 1fr 1fr;
 }
 .one {
     display: grid;
@@ -96,10 +96,14 @@ section img {
     display: flex;
     justify-self: center ;
 }
-.two p{
+.two figcaption{
+    font-family: "Noto Serif", serif;
+    font-style: normal;
+    color: var(--accent2-color);
     display: flex;
     justify-content: center;
 }
+
 
 header {
     display: grid;
