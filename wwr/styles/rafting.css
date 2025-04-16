@@ -1,5 +1,5 @@
 :root {
-    --main-color: #012f46;
+    --main-color: #133098;
     --secondary-color: #12a5c9;
     --accent1-color: #ffb805;
     --accent2-color: #fa8500;
@@ -9,18 +9,36 @@
     text-decoration: none;
 }
 
+.info {
+    display: grid;
+    grid-template: 33% 33% 34%/ 60% 40%;       
+} 
+#phone{
+    display: grid;
+    grid-column: 1;
+    grid-row: 2 ;
+}
+#email{
+    display: grid;
+    grid-column: 1;
+    grid-row: 3 ;
+}
+iframe{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/4;
+}
 article img {
     float: right;
     margin: 10px;
 }
-
 .hero article {
     width: 80%;
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(255, 215, 0, 0.5);
+    background-color: rgba(214, 228, 106, 0.692);
     padding: 10px 20px;
     border-radius: 5px;
     text-align: justify;
@@ -30,7 +48,7 @@ h1 {
     font-family: "Satisfy", cursive;
     font-weight: 400;
     font-style: normal;
-    color: var(--accent1-color);
+    color: var(--main-color);
 }
 
 h2 {
@@ -43,7 +61,10 @@ h2 {
 p {
     font-family: "Noto Serif", serif;
     font-style: normal;
-    color: var(--accent2-color);
+    color: var(--main-color);
+}
+div {
+    text-align: center;
 }
 
 .hero {
@@ -57,9 +78,8 @@ p {
 
 .hero h1 {
     position: absolute;
-    background-color: rgba(56, 30, 249, 0.587);
-    width: 80%;
-    left: 10%;
+    background-color: rgba(214, 216, 189, 0.46);
+    width: 100%;
     text-align: center;
     top: 0%
 }
@@ -70,7 +90,11 @@ p {
 }
 .two {
     display: grid;
-    grid-template: 80px 1fr / 1fr 1fr 1fr 1fr 1fr;
+    grid-template: 80px 1fr / 20% 20% 20% 20% 20%;
+}
+.ctwo {
+    display: grid;
+    grid-template: 80px 1fr / 25% 25% 25% 25%;
 }
 .one {
     display: grid;
@@ -89,8 +113,20 @@ section h2{
     justify-content: center;
 }
 section img {
-    width: 140px;
+    width: 160px;
     height: auto;
+}
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    padding: 5px;
+    border: 1px groove rgb(207, 207, 207);
+}
+
+figure img{
+    width: 145px;
+    height: 100px;
 }
 .two img { 
     display: flex;
@@ -103,11 +139,25 @@ section img {
     display: flex;
     justify-content: center;
 }
+.ctwo figcaption{
+    font-family: "Noto Serif", serif;
+    font-style: normal;
+    color: var(--accent2-color);
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    color: var(--accent2-color)
+}
 
 
 header {
+    border-bottom: 1px solid rgb(207, 207, 207);
+    margin-bottom:  3%;
     display: grid;
-    grid-template-columns: 30% 70% ;
+    grid-template-columns: 35% 45% 20%;
+
 }
 
 header img {
@@ -126,7 +176,7 @@ header nav {
  footer{
     margin-top: 30px;
     display: grid;
-    grid-template: 100% / 85% 15%;
+    grid-template: 100% / 99% 1%;
  }
 
  footer p {
@@ -141,4 +191,9 @@ header nav {
  }
  footer img {
     width: 30px;
+ }
+ form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
  }
