@@ -11,7 +11,7 @@
 
 .info {
     display: grid;
-    grid-template: 33% 33% 34%/ 60% 40%;       
+    grid-template: 33% 33% 34%/ 50% 50%;       
 } 
 #phone{
     display: grid;
