@@ -1,10 +1,9 @@
 :root {
     --main-color: #133098;
     --secondary-color: #12a5c9;
-    --accent1-color: #ffb805;
-    --accent2-color: #fa8500;
+    --accent2-color: #ffb805;
+    --accent1-color: #fa6800;
 }
-
 * {
     text-decoration: none;
 }
@@ -35,6 +34,14 @@ iframe {
 article img {
     float: right;
     margin: 10px;
+}
+a button {
+    height: 10%;
+    width: auto;
+    background-color: #fa6800;
+    color: var(--main-color);
+    float: right;
+    border: 0,5px solid black;
 }
 
 .hero article {
@@ -111,6 +118,11 @@ div {
     grid-template: 80px 1fr 30px / 1fr 250px 1fr;
 }
 
+.newsletter {
+    display: grid;
+    grid-template: 100% / 70% 30%;
+}
+
 .one img {
     display: flex;
     justify-self: center;
@@ -128,7 +140,12 @@ section img {
     width: 160px;
     height: auto;
 }
-
+.places{
+    background-color: #6de2ff;
+}
+.signup{
+    background: #eafa58;
+}
 figure {
     display: flex;
     flex-direction: column;
