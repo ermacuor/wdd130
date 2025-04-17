@@ -41,7 +41,6 @@ a button {
     background-color: #fa6800;
     color: var(--main-color);
     float: right;
-    border: 0,5px solid black;
 }
 
 .hero article {
@@ -155,8 +154,8 @@ figure {
 }
 
 figure img {
-    width: 145px;
-    height: 100px;
+    width: 170px;
+    height: 110px;
 }
 
 .two img {
