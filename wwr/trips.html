@@ -27,62 +27,92 @@
     </header>
     <main>
         <div>
-            <h1>RAPIDS</h1>
+            <h1>RAPIDS'S TRIPS</h1>
         </div>
-        <div class="info">
-            <p class="contact">Adress: Pl. Venancio Pando, 7, 33540 Arriondas, Asturias, España</p>
-            <p class="contact" id="phone">Phone number: (+34) 987654321</p>
-            <p class="contact" id="email">Email: contact@rapids.com</p>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2110.2409568390954!2d-5.183295678544335!3d43.390128060978455!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sbo!4v1744845185151!5m2!1ses!2sbo"
-                width="500" height="300" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="trips">
+            <figure class="trip">
+                <img src="images/trip-2.jpg" alt="whitewater rafting">
+                <figcaption><p class="name-trip">Alsek River Rafting Adventure</p>
+                    <p class="days">12 Days</p><br>
+                    <p class="data">Location: Alaska</p>
+                    <p class="data">Adventure Level: Challenging</p>
+                    <p class="data">Minimum Age: 14</p>
+                </figcaption>
+            </figure>
+            <figure class="trip">
+                <img src="images/trip-1.jpg" alt="whitewater rafting">
+                <figcaption><p class="name-trip">Westwater Canyon Rafting</p>
+                    <p class="days">2 or 3 Days</p><br>
+                    <p class="data">Location: Utah</p>
+                    <p class="data">Adventure Level: Moderate</p>
+                    <p class="data">Minimum Age: 12 (16 during high water)</p>   
+                    </figcaption>
+            </figure>
+            <figure class="trip">
+                <img src="images/trip-3.jpg" alt="whitewater rafting">
+                <figcaption><p class="name-trip">Lower Klamath River Rafting</p>
+                    <p class="days">3 Days</p><br>
+                    <p class="data">Location: California</p>
+                    <p class="data">Adventure Level: Easier</p>
+                    <p class="data">Minimum Age: 4</p>
+                </figcaption>
+            </figure>
+            <figure class="trip">
+                <img src="images/trip-4.jpg" alt="whitewater rafting">
+                <figcaption><p class="name-trip">Cataract Canyon Whitewater Rafting</p> 
+                    <p class="days">4 or 6 days</p><br>
+                    <p class="data">Location: Utah</p>
+                    <p class="data">Adventure Level: Moderately Challenging</p>
+                    <p class="data">Minimum Age: 9 (12 - 16 during high water)</p>
+                </figcaption>
+            </figure>
         </div>
-        <section class="ctwo">
-            <h2>Meet our team</h2>
-            <figure>
-                <img src="images/employee-2.webp" alt="whitewater rafting">
-                <figcaption>Raul </figcaption>
-            </figure>
-            <figure>
-                <img src="images/employee-1.webp" alt="whitewater rafting">
-                <figcaption>Melissa</figcaption>
-            </figure>
-            <figure>
-                <img src="images/employee-3.webp" alt="whitewater rafting">
-                <figcaption>Ashley</figcaption>
-            </figure>
-            <figure>
-                <img src="images/employee-4.webp" alt="whitewater rafting">
-                <figcaption>Brenner</figcaption>
-            </figure>
-        </section>
-        <form>
-            <fieldset class="personal">
-                <legend>Personal information</legend>
-                <label for="fname">First name:</label>
-                <input type="text" name="fname" id="fname" placeholder="Erik">
-                <label for="lname">Last name:</label>
-                <input type="text" name="lname" id="lname" placeholder="Cuiza">
-                <label for="email1">Email:</label>
-                <input type="text" name="email" id="email1" placeholder="example@example.com">
-            </fieldset>
-            <fieldset>
-                <legend>Message</legend>
-                <p>Purpose of the message:</p><br>
-                <input type="radio" name="purpose" value="GI" id="GI">
-                <label for="GI">General Inquiry</label><br>
-                <input type="radio" name="purpose" value="RQ" id="RQ">
-                <label for="RQ">Reservation Question</label><br>
-                <input type="radio" name="purpose" value="WS" id="WS">
-                <label for="WS">Website Suggestions</label><br>
-                <label for="message">Message:</label>
-                <textarea name="message" id="message" placeholder="Write a message"></textarea><br>
-                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
-                <input type="checkbox" name="subscribe" id="subscribe"><br>
-            </fieldset>
-            <button type="submit">Send Message</button>
-        </form>
+        <div>
+            <h2>All our trips</h2>
+                <table>
+                    <thead>
+                        <tr>
+                        <th>Trip name</th>
+                        <th>Location</th>
+                        <th>Duration</th>
+                        <th>Difficulty</th> 
+                        <th>Price</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Alsek River Rafting Adventure</td>
+                        <td>Alaska</td>
+                        <td>12 Days</td>
+                        <td>Challenging</td>
+                        <td>$8385</td>
+                    </tr>
+                    <tr>
+                        <td>Westwater Canyon Rafting</td>
+                        <td>Utah</td>
+                        <td>2 or 3 days</td>
+                        <td>Moderate</td>
+                        <td>$599 - $999</td>
+                    </tr>
+                    <tr>
+                        <td>Lower Klamath River Rafting</td>
+                        <td>California</td>
+                        <td>3 days</td>
+                        <td>Easier</td>
+                        <td>$899 - $999</td>
+                    </tr>
+                    <tr>
+                        <td>Cataract Canyon White Rafting</td>
+                        <td>Utah</td>
+                        <td>4 or 6 days</td>
+                        <td>Moderate</td>
+                        <td>$1749 - $2499</td>
+                    </tr>
+                </tbody>
+            </table>
+            <a href="contact.html" class="message2">Send us a message</a>
+
+            </div>
 
     </main>
     <footer>

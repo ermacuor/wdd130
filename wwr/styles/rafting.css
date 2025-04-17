@@ -35,13 +35,6 @@ article img {
     float: right;
     margin: 10px;
 }
-a button {
-    height: 10%;
-    width: auto;
-    background-color: #fa6800;
-    color: var(--main-color);
-    float: right;
-}
 
 .hero article {
     width: 80%;
@@ -111,7 +104,15 @@ div {
     display: grid;
     grid-template: 80px 1fr / 25% 25% 25% 25%;
 }
+.trips{
+    display: grid;
+    grid-template: 50% 50% / 50% 50%;
+}
 
+.trips img{
+    width: 100%;
+    height: 70%;
+}
 .one {
     display: grid;
     grid-template: 80px 1fr 30px / 1fr 250px 1fr;
@@ -152,7 +153,15 @@ figure {
     padding: 5px;
     border: 1px groove rgb(207, 207, 207);
 }
-
+.trip{
+    border: 2px solid black;
+    background: rgb(255, 255, 255);
+}
+.data{
+    display: flex;
+    align-self: flex-start;
+    margin: 0;
+}
 figure img {
     width: 170px;
     height: 110px;
@@ -168,7 +177,26 @@ figure img {
     font-style: normal;
     color: var(--accent2-color);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+}
+.trips figcaption {
+    font-family: "Noto Serif", serif;
+    font-style: normal;
+    color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.name-trip{
+    color: var(--accent1-color);
+    font-size: 23px;
+    margin: 0;
+}
+.days {
+    margin-top: 0;
+    font-size: small;
+    align-self: flex-start;
+    color: var(--accent1-color);
 }
 
 .ctwo figcaption {
@@ -251,4 +279,42 @@ form {
 legend {
     color: var(--accent2-color);
     align-self: center;
+}
+table {
+    border-collapse: collapse;
+    margin: auto;
+    align-self: center;
+    margin-bottom: 3%;
+}
+thead {
+    background-color: #133098;
+    color: white;
+}
+th, td{
+    padding: 12px 25px;
+}
+table, th, td, tr{
+    border: 1px solid black;
+}
+.message2{
+    border: 3px solid black;
+    background-color: var(--accent1-color);
+    color: var(--main-color);
+    font-family: "Noto Serif", serif;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 2%;
+    padding: 15px;
+    float: none;
+}
+.see-trips{
+        border: 2px solid black;
+        padding: 5px;
+        height: 10%;
+        width: auto;
+        font-family: "Noto Serif", serif;
+        font-style: normal;
+        background-color: #fa6800;
+        color: var(--main-color);
+        float: right;
 }
