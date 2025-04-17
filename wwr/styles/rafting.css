@@ -317,4 +317,10 @@ table, th, td, tr{
         background-color: #fa6800;
         color: var(--main-color);
         float: right;
+}.wireframe{
+    position:absolute;
+    color: white;
+    font-family: "Noto Serif", serif;
+    font-style: normal;
+    float: right;
 }
